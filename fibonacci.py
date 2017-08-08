@@ -18,7 +18,10 @@ index = input()
 # Define this function to return the expected output
 # Do not print it from this function
 def fib_sequence(num):
-    # TODO
-    pass
+  
+   if num <= 1:
+       return num
+   else:
+       return(fib_sequence(num-1) + fib_sequence(num-2))
 
 print(fib_sequence(index))
