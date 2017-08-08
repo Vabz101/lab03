@@ -33,7 +33,10 @@ def singlify(str):
 			output.sort()
 	
 
-	
+	for word in output: 
+		output_word += word + ' '
+
+	return output_word
 
 	
 
