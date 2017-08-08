@@ -12,7 +12,7 @@ to the standard output. You may assume that your
 program will be tested with valid inputs only.
 '''
 
-index = input()
+index = int(input())
 
 
 # Define this function to return the expected output
