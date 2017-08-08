@@ -19,7 +19,22 @@ sentence = input()
 # Define this function to return the expected output
 # Do not print it from this function
 def singlify(str):
-    # TODO
-    pass
+	# TODO
+	output = []
+	duplicate = []
 
-print(singlify(sentence))
+	output_word = ''
+
+	for word in str:
+		new_word = word.lower() 
+		if new_word not in duplicate: 
+			duplicate.append(new_word) 
+			output.append(word)
+			output.sort()
+	
+
+	
+
+	
+
+print(singlify(sentence.split(" ")))
